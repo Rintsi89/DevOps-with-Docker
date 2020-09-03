@@ -1,0 +1,37 @@
+Script started on 2020-09-03 18:36:01+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="211" LINES="57"]
+]0;linux-user@Linux-laptop: ~/Avoin YO/DevOps with Docker/exercises/part1/1.4[01;32mlinux-user@Linux-laptop[00m:[01;34m~/Avoin YO/DevOps with Docker/exercises/part1/1.4[00m[00;32m(master)[00m$ sudo docker images
+[sudo] password for linux-user: 
+REPOSITORY                          TAG                 IMAGE ID            CREATED             SIZE
+fav_distro                          xenial              4b22027ede29        2 weeks ago         127MB
+ubuntu                              16.04               4b22027ede29        2 weeks ago         127MB
+ubuntu                              latest              4e2eef94cd6b        2 weeks ago         73.9MB
+devopsdockeruh/exec_bash_exercise   latest              c52ece77379e        3 months ago        942MB
+]0;linux-user@Linux-laptop: ~/Avoin YO/DevOps with Docker/exercises/part1/1.4[01;32mlinux-user@Linux-laptop[00m:[01;34m~/Avoin YO/DevOps with Docker/exercises/part1/1.4[00m[00;32m(master)[00m$ sudo docker run -d -it --name loggeri devopsdock eruh/exec_bash_exercise
+1ffcd373c21c9a1344a7399b1c9ddd3404002e298c616a0eb7047c4da5c49dac
+]0;linux-user@Linux-laptop: ~/Avoin YO/DevOps with Docker/exercises/part1/1.4[01;32mlinux-user@Linux-laptop[00m:[01;34m~/Avoin YO/DevOps with Docker/exercises/part1/1.4[00m[00;32m(master)[00m$ sudo docker run -d -it --name loggeri devopsdockeruh/exec_bash_exercise[A]0;linux-user@Linux-laptop: ~/Avoin YO/DevOps with Docker/exercises/part1/1.4[01;32mlinux-user@Linux-laptop[00m:[01;34m~/Avoin YO/DevOps with Docker/exercises/part1/1.4[00m[00;32m(master)[00m$ [C[C[C[C[C[C[C[C[C[C[C[Cimages[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crun -d -it --name loggeri devopsdockeruh/exec_bash_exercise[A]0;linux-user@Linux-laptop: ~/Avoin YO/DevOps with Docker/exercises/part1/1.4[01;32mlinux-user@Linux-laptop[00m:[01;34m~/Avoin YO/DevOps with Docker/exercises/part1/1.4[00m[00;32m(master)[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo docker run -d -it --name loggeri devopsdockeruh/exec_bash_exercise[A]0;linux-user@Linux-laptop: ~/Avoin YO/DevOps with Docker/exercises/part1/1.4[01;32mlinux-user@Linux-laptop[00m:[01;34m~/Avoin YO/DevOps with Docker/exercises/part1/1.4[00m[00;32m(master)[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdsa[K[K[Ksudo docker exec -it loggeri fail[K[K[K[Ktail -f ./logs.txt
+Thu, 03 Sep 2020 15:37:32 GMT
+Thu, 03 Sep 2020 15:37:35 GMT
+Thu, 03 Sep 2020 15:37:38 GMT
+Thu, 03 Sep 2020 15:37:41 GMT
+Secret message is:
+"Docker is easy"
+Thu, 03 Sep 2020 15:37:47 GMT
+Thu, 03 Sep 2020 15:37:50 GMT
+Thu, 03 Sep 2020 15:37:53 GMT
+Thu, 03 Sep 2020 15:37:56 GMT
+Secret message is:
+"Docker is easy"
+Thu, 03 Sep 2020 15:38:02 GMT
+Thu, 03 Sep 2020 15:38:05 GMT
+Thu, 03 Sep 2020 15:38:08 GMT
+Thu, 03 Sep 2020 15:38:11 GMT
+Secret message is:
+"Docker is easy"
+Thu, 03 Sep 2020 15:38:17 GMT
+Thu, 03 Sep 2020 15:38:20 GMT
+^C]0;linux-user@Linux-laptop: ~/Avoin YO/DevOps with Docker/exercises/part1/1.4[01;32mlinux-user@Linux-laptop[00m:[01;34m~/Avoin YO/DevOps with Docker/exercises/part1/1.4[00m[00;32m(master)[00m$ exit
+
+Script done on 2020-09-03 18:38:23+03:00 [COMMAND_EXIT_CODE="130"]
