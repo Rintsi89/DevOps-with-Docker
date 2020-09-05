@@ -1,0 +1,34 @@
+Script started on 2020-09-05 09:19:47+03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="211" LINES="57"]
+linux-user@Linux-laptop [32m~/Avoin YO/DevOps with Docker/exercises/part1/1.6[33m(master)[00m $ sudo docker attach bcontainer lss lsattach docker-clockcd Avoin\ YO/DevOps\ with\ Docker/exercises[28Psource .bashrc cd Avoin\ YO/DevOps\ with\ Docker/exercises[12Psudo docker attach docker-clock[6Pcontainers ls[1P ls[4Pattach b[Ksudo docker build -t docker-clock .
+[sudo] password for linux-user: 
+Sending build context to Docker daemon   2.56kB
+Step 1/2 : FROM devopsdockeruh/overwrite_cmd_exercise
+ ---> 3d2b622b1849
+Step 2/2 : CMD ["/bin/bash"]
+ ---> Using cache
+ ---> 3236422cca9a
+Successfully built 3236422cca9a
+Successfully tagged docker-clock:latest
+linux-user@Linux-laptop [32m~/Avoin YO/DevOps with Docker/exercises/part1/1.6[33m(master)[00m $ sudo docker run docker-clock
+
+-h,       	--help           	to show this message
+-a [age], 	--adult [age]    	to check if you're older than 18
+-c [time],	--clock [time]   	to start a clock
+-t [size],	--triangle [size]	to draw a triangle, takes second argument as the size
+    
+linux-user@Linux-laptop [32m~/Avoin YO/DevOps with Docker/exercises/part1/1.6[33m(master)[00m $ sudo docker run docker-clock[C[C docker-clock- docker-clocki docker-clockt docker-clock[C[C[C[C[C[C[C[C[C[C[C[C[C -c
+[33m1[39m
+[33m2[39m
+[33m3[39m
+[33m4[39m
+[33m5[39m
+[33m6[39m
+[33m7[39m
+[33m8[39m
+[33m9[39m
+[33m10[39m
+[33m11[39m
+[33m12[39m
+^Clinux-user@Linux-laptop [32m~/Avoin YO/DevOps with Docker/exercises/part1/1.6[33m(master)[00m $ exit
+
+Script done on 2020-09-05 09:20:40+03:00 [COMMAND_EXIT_CODE="0"]
