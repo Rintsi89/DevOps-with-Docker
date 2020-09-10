@@ -1,0 +1,16 @@
+Script started on 2020-09-10 20:01:34+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="211" LINES="57"]
+linux-user@Linux-laptop [32m~[33m[00m $ touch logs.txt
+linux-user@Linux-laptop [32m~[33m[00m $ touch logs.txtsudo docker container ls -astart uusi-ubuntu[7P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8@docker attach[C[C[C[C[C[C[C[C[C[C[C[C[8Pstart[C[C[C[C[C[C[C[C[C[C[C[C[7@docker [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pcontainer ls -a[13Ptouch logs.txt[Ksudo docker [K[K[K[K[K[K[K[K[K[K[K[Ksudo doce[Kker run -v $()p[Kp)w)d)[C;[K/logs.txt:/usr/app/logs.txt devopsdockeruh/first_volume_exercise
+[sudo] password for linux-user: 
+Wrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+^CClosing file
+linux-user@Linux-laptop [32m~[33m[00m $ cat logs.txt 
+Thu, 10 Sep 2020 17:02:56 GMT
+Thu, 10 Sep 2020 17:02:59 GMT
+Thu, 10 Sep 2020 17:03:02 GMT
+linux-user@Linux-laptop [32m~[33m[00m $ exit
+exit
+
+Script done on 2020-09-10 20:03:10+03:00 [COMMAND_EXIT_CODE="0"]
