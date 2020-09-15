@@ -1,0 +1,52 @@
+Script started on 2020-09-15 20:01:31+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="211" LINES="57"]
+linux-user@Linux-laptop [32m~[33m[00m $ sudo touch logs.txt
+[sudo] password for linux-user: 
+linux-user@Linux-laptop [32m~[33m[00m $ sudo docker run -p 8000:8000 -v $(pwd)/logs.txt:/mydir/logs.txt backend
+
+> backend-example-docker@1.0.0 start /mydir
+> node index.js
+
+ENV values set as follows: { DB:
+   { username: undefined,
+     password: undefined,
+     database: undefined,
+     host: 'localhost' },
+  PORT: 8000,
+  FRONT_URL: '',
+  REDIS: undefined,
+  REDIS_PORT: 6379 }
+[Exercise 2.6+] DB_USERNAME and/or DB_PASSWORD are not defined, skipping db connection
+[Exercise 2.5+] REDIS is not defined, skipping redis connection
+Started on port 8000
+::ffff:172.17.0.1 - GET / HTTP/1.1 304 - - 5.230 ms
+^C^Clinux-user@Linux-laptop [32m~[33m[00m $ cat logs.txt 
+9/15/2020, 5:01:52 PM: Connection received in root
+linux-user@Linux-laptop [32m~[33m[00m $ cat logs.txt sudo docker run -p 8000:8000 -v $(pwd)/logs.txt:/mydir/logs.txt backend
+
+> backend-example-docker@1.0.0 start /mydir
+> node index.js
+
+ENV values set as follows: { DB:
+   { username: undefined,
+     password: undefined,
+     database: undefined,
+     host: 'localhost' },
+  PORT: 8000,
+  FRONT_URL: '',
+  REDIS: undefined,
+  REDIS_PORT: 6379 }
+[Exercise 2.6+] DB_USERNAME and/or DB_PASSWORD are not defined, skipping db connection
+[Exercise 2.5+] REDIS is not defined, skipping redis connection
+Started on port 8000
+::ffff:172.17.0.1 - GET / HTTP/1.1 304 - - 4.917 ms
+::ffff:172.17.0.1 - GET / HTTP/1.1 304 - - 0.539 ms
+::ffff:172.17.0.1 - GET / HTTP/1.1 304 - - 0.368 ms
+^C^Clinux-user@Linux-laptop [32m~[33m[00m $ cat logs.txt 
+9/15/2020, 5:01:52 PM: Connection received in root
+9/15/2020, 5:02:04 PM: Connection received in root
+9/15/2020, 5:02:05 PM: Connection received in root
+9/15/2020, 5:02:06 PM: Connection received in root
+linux-user@Linux-laptop [32m~[33m[00m $ exit
+exit
+
+Script done on 2020-09-15 20:02:17+03:00 [COMMAND_EXIT_CODE="0"]
