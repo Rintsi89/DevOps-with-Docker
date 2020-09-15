@@ -1,0 +1,10 @@
+Script started on 2020-09-15 20:50:12+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="211" LINES="57"]
+linux-user@Linux-laptop [32m~/Avoin YO/DevOps with Docker/exercises/part1/1.12[33m(master)[00m $ sudo docker cont[K[K[K[Krun -d -p 89[K000:0[K8000 backend
+[sudo] password for linux-user: 
+b6a8f872a6ab60211629cc54b92068db3089724039371f29168cd5f12f93dcf0
+linux-user@Linux-laptop [32m~/Avoin YO/DevOps with Docker/exercises/part1/1.12[33m(master)[00m $ sudo docker run -d -p 8000:8000 backend[1P[1P[1P[1P[1@5[1@0[1@0[1@0[C[C[1P[1@5[C[C[C[C[C[1Packendfackend[C[C[1Pkend[1Pkendrkendokendnkendtkend[C[1Pend
+5ce06cf30d7228f4b74a80baef2aaffce81e4c40f42e4131f47a29feb25c3cb0
+linux-user@Linux-laptop [32m~/Avoin YO/DevOps with Docker/exercises/part1/1.12[33m(master)[00m $ exit
+exit
+
+Script done on 2020-09-15 20:51:26+03:00 [COMMAND_EXIT_CODE="0"]
