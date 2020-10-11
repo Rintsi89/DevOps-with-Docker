@@ -1,0 +1,15 @@
+Script started on 2020-10-11 14:06:01+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="211" LINES="57"]
+linux-user@Linux-laptop [32m~/Avoin YO/DevOps with Docker/exercises/part2/2.4[33m(master)[00m $ sudo docker compose[K[K[K[K[K[K[K[K-compose up -d --sace[K[K[K[Kscale compute=5
+[sudo] password for linux-user: 
+Starting calculator ... 
+Starting 24_compute_1 ... 
+Starting load-balancer ... 
+[3A[2KStarting calculator    ... [32mdone[0m[3B[1A[2KStarting load-balancer ... [32mdone[0m[1B[2A[2KStarting 24_compute_1  ... [32mdone[0m[2BCreating 24_compute_2  ... 
+Creating 24_compute_3  ... 
+Creating 24_compute_4  ... 
+Creating 24_compute_5  ... 
+[4A[2KCreating 24_compute_2  ... [32mdone[0m[4B[3A[2KCreating 24_compute_3  ... [32mdone[0m[3B[1A[2KCreating 24_compute_5  ... [32mdone[0m[1B[2A[2KCreating 24_compute_4  ... [32mdone[0m[2Blinux-user@Linux-laptop [32m~/Avoin YO/DevOps with Docker/exercises/part2/2.4[33m(master)[00m $ ^C
+linux-user@Linux-laptop [32m~/Avoin YO/DevOps with Docker/exercises/part2/2.4[33m(master)[00m $ exit
+exit
+
+Script done on 2020-10-11 14:07:06+03:00 [COMMAND_EXIT_CODE="130"]
